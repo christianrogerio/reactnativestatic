@@ -1,4 +1,5 @@
-# teste3
+# Example to use Static Variable VS Context API
+
 This example shows how to use a static variable into a class.
 I think it is better than use Context API in some cases.
 
