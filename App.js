@@ -28,6 +28,7 @@ import {
 } from 'react-native/Libraries/NewAppScreen';
 
 import Lapis from './src/Lapis'
+import Texto from './src/Texto'
 
 var EST = 'TESTE';
 
@@ -89,6 +90,9 @@ const App: () => Node = () => {
           }}>
             <Button title='Mudar' onPress={()=>{mudarCont('clicou novo')}}></Button> 
           <Section title={exibirCont}>
+          <Text>Abaixo texto: [</Text>
+            <Texto/>
+            <Text>]</Text>
             Edit <Text style={styles.highlight}>App.js</Text> to change this
             screen and then come back to see your edits.
           </Section>
