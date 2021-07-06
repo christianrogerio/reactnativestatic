@@ -4,14 +4,16 @@ I think it is better than use Context API in some cases.
 
 
 Class static:
-
+```
 export default class Lapis {
      static cont = 'oi';
      static c=0;
 }
-
+```
 
 To use em other file:
+
+```
 import React from 'react'
 import {Text} from 'react-native'
 import Lapis from './Lapis'
@@ -23,10 +25,11 @@ export default props => {
         </>
         );
 }
-
+```
 
 How to change the value of the variable static into the class:
 
+```
 /**
  * Sample React Native App
  * https://github.com/facebook/react-native
@@ -161,4 +164,4 @@ const styles = StyleSheet.create({
 });
 
 export default App;
-
+```
